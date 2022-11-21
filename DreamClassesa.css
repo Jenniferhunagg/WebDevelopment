@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    }
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px; 
+    margin-top: 10px;  
+ }
+ h2{
+    font-size: 17px;
+ }
+ p{
+    font-size: 14px;
+    margin-top: 1px;
+}
+.image{
+   object-fit: cover;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven{
+   height: 250px;
+   width: 250px;
+   display: block;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.one{background-color: rgb(207, 206, 206);}
+.two{background-color: rgb(95, 95, 237);}
+.three{background-color: rgb(156, 109, 156);}
+.four{background-color: rgb(34, 223, 223);}
+.five{background-color: rgb(200, 247, 136);}
+.six{background-color: rgb(246, 211, 246);}
+.seven{background-color: pink;}
+.eight{background-color: orange;}
+.nine{background-color: rgb(161, 74, 108);}
+.ten{background-color: rgb(194, 171, 19);}
+.eleven{background-color: powderblue;}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .myrid 
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-rows: 100px 200px 50px;
+            grid-template-areas:
+                "title title title"
+                "paragraph1 scary-dino para2"
+                "subhead desc desc" 
+        }
+        
+        .title 
+        .title {grid-area: title;}
+        .paral {grid-area: paragraphl;}
+        .para2 {grid-area: para2;}
+        .subhead {grid-area: subhead; }
+        .desc {grid-area: desc;}
+        • scary-dino{
+            grid-area: scary-dino;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="myGrid">
+        <h1 class="title">Golden State Warriors</h1>
+        <p class="paral">Curry</p>
+        <p class="para2">Pool</p>
+        <h2 class="subhead">Sub Header</h2>
+        <p class="desc" >Description</D>
+        <img class="scary-dino"
+            src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png">
+    </div>
+</body>

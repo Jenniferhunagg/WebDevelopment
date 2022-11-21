@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+.toppicture{
+    object-fit: cover;
+    width: 100vw;
+    background-image: url("main-splash.jpg");
+    background-size: cover;
+    height: 900px;
+}
+.topwords{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    padding: 10px;
+    top: 0;
+    left: 1050px;
+}
+.login, .browse{
+    margin: 20px;
+    color: gray;
+}
+.signup{
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #ff8e8e;
+    border-radius: 10px;
+}
+.login >a{
+    color: gray;
+    text-decoration: none;
+}
+.signup > a, .signupbotton > a{
+    color: white;
+    text-decoration: none;
+}
+.introduction{
+    color: white;
+    height: 300px;
+    width: 1000px;
+    margin-left: 60px;
+    margin-top: 500px;
+}
+.topic{
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight: 400;
+}
+.topicdescription{
+    font-size: 30px;
+    font-weight: 200;
+}
+.movies{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.movie1,.movie2, .movie3{
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+}
+.movie1{
+    background-image: url('movie1.jpg');
+}
+.movie2{
+    background-image: url('movie2.jpg');
+}
+.movie3{
+    background-image: url('movie3.jpg');
+}
+.moviedescriptions {
+    color: white;
+    background-color: rgba(6, 0, 1, 0.2);
+    transition: 1s;
+    opacity: 0;
+    height: 500px;
+    width: 300px;
+}
+.moviedescriptions:hover{
+    opacity: 1;
+}
+.name, .descriptions{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.name{
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.descriptions, .year{
+    font-size: 15px;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.descriptions{
+    margin-top: 8px;
+}
+.botton{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 160px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ff8e8e;
+    border-radius: 5px;
+}
+.signupsplash{
+    height: 600px;
+    padding-top: 200px;
+    background-image: url("signup-splash.jpg");
+    background-size: cover;
+}
+.signuppagesize{
+    padding: 45px;
+    width: 1000px;
+    margin-left: 130px;
+}
+.signupbotton{
+    color: white;
+    background-color: #ff8e8e;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 55px;
+    text-align: center;
+}
+.signupbotton:hover{
+    background-color: #fbc7c7;
+}
+.signupdescription{
+    font-size: 55px;
+    color: white;
+    margin-top: 45px;
+}
+.down{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+}

@@ -1,0 +1,24 @@
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+h1{
+    color: blue;
+    transition: 1s;
+    text-align: center;
+    font-size: 100px;
+}
+.picture{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    margin-top: 30px;
+    left: 490px;
+    width: 560px;
+    height: 560px;
+}
+.picture:hover{
+    opacity: 1;
+}
