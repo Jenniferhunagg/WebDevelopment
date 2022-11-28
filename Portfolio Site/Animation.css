@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    animation: name;
+    animation-duration: 2s;
+}
+img{
+    display: block;
+    margin: auto;
+    animation: picture;
+    animation-duration: 2s;
+}
+@keyframes name{
+    from{
+        transform: translate3d(12px, 50%, 3em);
+    }
+    to{
+        transform: rotate3d(1, 2, 3, 10deg);
+    }
+}
+
+@keyframes picture{
+    0%{
+        transform: translate3d(12px, 50%, 3em) translateX(2em);
+    }
+    20%{
+        transform: rotate3d(1, 2, 3, 10deg);
+    }
+    40%{
+        transform: translateX(2em);
+    }
+}
+

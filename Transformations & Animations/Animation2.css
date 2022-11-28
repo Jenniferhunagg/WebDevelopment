@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    animation: name;
+    animation-duration: 3s;
+}
+img{
+    display: block;
+    margin: auto;
+    animation: picture;
+    animation-duration: 3s;
+}
+@keyframes name{
+    from{
+        transform: skew(30deg, 20deg);
+    }
+    to{
+        transform: rotateX(10deg);
+    }
+}
+@keyframes picture{
+    0%{
+        transform: scale(0.5) translate(-100%, -100%);
+    }
+    25%{
+        transform: skewY(1.07rad);
+    }
+    50%{
+        transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    100%{
+        transform: rotateX(10deg);
+    }
+}
+
