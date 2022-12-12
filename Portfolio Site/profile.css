@@ -124,7 +124,7 @@
 
 .introduction, .return, img{
     animation: fadeIn;
-    animation-duration: 8s;
+    animation-duration: 3s;
 }
 @keyframes fadeIn {
     0% {
